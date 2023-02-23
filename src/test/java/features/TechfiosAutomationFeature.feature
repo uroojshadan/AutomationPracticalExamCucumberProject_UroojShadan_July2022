@@ -4,7 +4,7 @@ Feature: TechfiosAutomationFeature
   Background: 
     Given I am On Techfios practical Exam page
 
-  @SetBlueBackground @Smoke
+  @SetBlueBackground
   Scenario: Sky Blue Background
     Given "Set SkyBlue Background" button exists
     When I click on the "SetSkyBlueBackgroundButton"
